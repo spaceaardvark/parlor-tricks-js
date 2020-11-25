@@ -1,5 +1,5 @@
 # parlor-tricks-js
-A list of random JavaScript parlor tricks.
+A list of random JavaScript parlor tricks.  See also [parlor-tricks-py](https://github.com/spaceaardvark/parlor-tricks-py/).
 
 ### Regex: tokenize repeating characters in a string
 
