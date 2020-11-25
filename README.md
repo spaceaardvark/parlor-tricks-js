@@ -17,7 +17,7 @@ Tags: regex, string, sequence, repeating, characters, binary gap, run-length enc
 
 ### Array: `slice` vs. `splice`
 
-- `slice` **copies** the array segment \[*startIndex*, *endIndex*).
+- `slice` **copies** the array segment \[*startIndex*, *endIndex*). `slice()` copies the entire arrary.
 - `splice` performs surgey on the the array, cutting out \[*startIndex*, *startIndex* + *deleteCount*) and optionally inserting *item1*, *item2*, ...
 
-Tags: array, slice, splice, inclusive, exclusive
+Tags: array, slice, splice, inclusive, exclusive, copy
