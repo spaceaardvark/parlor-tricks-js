@@ -14,3 +14,10 @@ console.log(tokens);
 ```
 
 Tags: regex, string, sequence, repeating, characters, binary gap, run-length encoding
+
+### Array: `slice` vs. `splice`
+
+- `slice` **copies** the array segment \[*startIndex*, *endIndex*).
+- `splice` performs surgey on the the array, cutting out \[*startIndex*, *startIndex* + *deleteCount*) and optionally inserting *item1*, *item2*, ...
+
+Tags: array, slice, splice, inclusive, exclusive
