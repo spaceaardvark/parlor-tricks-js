@@ -17,7 +17,14 @@ Tags: regex, string, sequence, repeating, characters, binary gap, run-length enc
 
 ### Array: `slice` vs. `splice`
 
-- `slice` **copies** the array segment \[*startIndex*, *endIndex*). `slice()` copies the entire arrary.
+- `slice` **copies** the array segment \[*startIndex*, *endIndex*).
 - `splice` performs surgey on the the array, cutting out \[*startIndex*, *startIndex* + *deleteCount*) and optionally inserting *item1*, *item2*, ...
 
+Bonus: `xs.slice()` makes a quick shallow copy of the array.
+
 Tags: array, slice, splice, inclusive, exclusive, copy
+
+### Array: `sort`
+
+- sort **numbers** with `xs.slice().sort((a, b) => a - b)`.
+- sort everything else with `xs.slice().sort()`.
